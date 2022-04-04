@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       let weather={
+           Temperature:"19",
+           humidity:"50",
+            windSpeed: "3",
+        };
+        let outlook=[
+        "temperature 19",
+           "humidity 50",
+            "windSpeed 3",
+        ];
+        let weekDays = [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+        ];
+        function showTemperature(day){
+            console.log("Temperature on " +day , "is 20 degrees");
+        }
+        weekDays.forEach(showTemperature)
+        ;
+       
+       console.log (weather);
+       console.log (weather.temperature);
+       console.log (weather.humidity);
+       console.log (weather.windSpeed);
+       console.log (outlook);
+       console.log (weekDays);
+       
+       
+
+   </script> 
+</body>
+</html>
